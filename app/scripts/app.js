@@ -49,10 +49,10 @@ angular.module('parseApp', ['ngRoute', 'ngSanitize', 'parseResource', 'ngCollect
 
 
 angular.module('parseApp')
-  .constant("PARSE_CONFIG",{
+  .constant('PARSE_CONFIG',{
     defaultHeaders: {
-      "X-Parse-Application-Id" : '20iKZibF72lD1KGSmSlSe7ikyI2PDfIvdiz0nfzF',
-      "X-Parse-REST-API-Key" : 'mZOtCNxV5K052WZxzdUwOeZTFUQX61qA5VNGpucO'
+      'X-Parse-Application-Id' : '',
+      'X-Parse-REST-API-Key' : ''
     },
     defaultParams: {}
   }
